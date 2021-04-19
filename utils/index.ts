@@ -27,6 +27,7 @@ export const createCloudClient = () => {
     realm: organization,
     clientId,
     branch: "main",
+    customContentApiUrl: `https://q922ege2xh.execute-api.us-east-1.amazonaws.com/content/${organization}/${clientId}/github/main`,
     tokenStorage: "LOCAL_STORAGE",
   });
 };
