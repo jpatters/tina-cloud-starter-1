@@ -1,7 +1,11 @@
 ---
 blocks:
+  - template: diagram
+    diagramHeading: Whimsical Diagram
+    diagramDescription: This is how your schema is defined
+    diagramID: Eyqu4zN7ftWZLzgBBuXE6H
   - template: message
-    messageHeader: Welcome to the Tina Cloud Starter
+    messageHeader: Welcome to the Tina Cloud Starter. This is a test
     messageBody: >
       The Tina Cloud project is an opinionated approach to working with the
       TinaCMS system that enables you to focus on building sites the way you're
@@ -32,10 +36,6 @@ blocks:
 
       We've built a few pages for you to get started, take a look around and see
       if you can figure out how to build your own pages and templates.
-  - template: diagram
-    diagramHeading: Whimsical Diagram
-    diagramDescription: This is how your schema is defined
-    diagramID: Eyqu4zN7ftWZLzgBBuXE6H
 _template: landingPage
 ---
 
